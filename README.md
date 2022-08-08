@@ -53,4 +53,5 @@ To build an Allure report for test results and open in the browser you need to a
 - I didn't spend much time to read about domain (snmp, oids), so I suppose some reasonable cases are missed,
 - I didn't analyze much performance tests: I have no answer do we need a warm-up the app before tests, how much we can trust this data
 - Allure steps could be improved, some actions right now not marked as @Steps and aren't presented in the Test Report.
-- By some reason these tests could be Flaky - instead of output it shows `empty string`, since I never worked with CLI from code I need more time to figure out how we should wait the output.
+- By some reason these tests could be Flaky - instead of output it shows `empty string`, since I never worked with CLI from code I need more time to figure out how we should wait the output,
+- I don't have clean up for custom configs (I expect that it will be run on CI tool and cleaned up by it).
