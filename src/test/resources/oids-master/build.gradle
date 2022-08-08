@@ -1,0 +1,24 @@
+allprojects {
+    apply plugin: 'java'
+    repositories {
+        mavenCentral()
+    }
+}
+
+task copyJars(type: Copy, dependsOn: subprojects.jar) {
+    from(subprojects.jar)
+    into project.file('lib')
+}
+
+task copyDeps(type: Copy) {
+    from(subprojects.configurations.runtime)
+    into project.file('lib/thirdparty')
+}
+
+// A task to deploy the application and its dependencies to the 'lib' directory.
+task deploy(dependsOn: [copyJars, copyDeps])
+
+// For convenience, wipe the 'lib' directory on clean.
+clean {
+    delete 'lib'
+}

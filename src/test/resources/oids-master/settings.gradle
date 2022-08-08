@@ -1,0 +1,4 @@
+rootProject.name = 'oids'
+
+// The root project is composed of the following sub-projects...
+include 'oid-app'

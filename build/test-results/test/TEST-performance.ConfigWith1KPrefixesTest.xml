@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Performance tests: a config with 1K prefixes" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-08-08T23:02:45" hostname="MacBook-Pro.local" time="5.634">
+  <properties/>
+  <testcase name="Verify OID from the first line of the config" classname="performance.ConfigWith1KPrefixesTest" time="0.284"/>
+  <testcase name="Verify combined input for the application with correct oid (1k), invalid oids (100), oids not from the config (100)" classname="performance.ConfigWith1KPrefixesTest" time="2.299"/>
+  <testcase name="Verify combined input for the application with correct oid (200), invalid oids (400), oids not from the config (400)" classname="performance.ConfigWith1KPrefixesTest" time="1.501"/>
+  <testcase name="Verify combined input for the application with correct oid (1k) only" classname="performance.ConfigWith1KPrefixesTest" time="1.524"/>
+  <testcase name="Verify OID from the last line of the config" classname="performance.ConfigWith1KPrefixesTest" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
