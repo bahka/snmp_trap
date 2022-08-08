@@ -26,11 +26,11 @@ It contains some groups of tests:
 
 ## Requirements 
 
-To run tests you need to install [Kotlin](https://kotlinlang.org/docs/command-line.html)
-- `brew install kotlin`
-and [Java 11](https://www.codejava.net/java-se/download-and-install-java-11-openjdk-and-oracle-jdk)
-
+To run tests you need to install [Kotlin](https://kotlinlang.org/docs/command-line.html) and [Java 11](https://www.codejava.net/java-se/download-and-install-java-11-openjdk-and-oracle-jdk).
 The easiest way to do that is to use the [SDKMAN!](https://sdkman.io/).
+
+
+- `brew install kotlin`
 
 To check the test report you need to install [Allure](https://docs.qameta.io/allure/):
 - for [linux](https://docs.qameta.io/allure/#_linux)
